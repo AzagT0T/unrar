@@ -7,9 +7,9 @@ import subprocess
 #TR_TORRENT_ID
 #TR_TORRENT_NAME
 
-torrent_dir = '/media/downloads/misc'
-torrent_name = 'Prison Architect Alpha'
-output_dir = '/media/downloads/rartest'
+torrent_dir = ''
+torrent_name = ''
+output_dir = ''
 
 work_dir = torrent_dir + '/' + torrent_name
 dir_list = os.listdir(work_dir)
